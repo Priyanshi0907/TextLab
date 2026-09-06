@@ -1,0 +1,159 @@
+{
+  "task": "category",
+  "best_model": "Naive Bayes",
+  "accuracy": 92.9,
+  "precision": 93.5,
+  "recall": 92.9,
+  "f1_score": 92.9,
+  "labels": [
+    "Business \u2192 Finance",
+    "Business \u2192 Marketing",
+    "Education \u2192 Biology",
+    "Education \u2192 Chemistry",
+    "Education \u2192 History",
+    "Education \u2192 Mathematics",
+    "Education \u2192 Physics",
+    "Health \u2192 Medicine",
+    "Technology \u2192 Computer Science",
+    "Technology \u2192 Web Development"
+  ],
+  "confusion_matrix": [
+    [
+      23,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      24,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      2,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      22,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      24,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      22,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23
+    ]
+  ],
+  "model_comparison": [
+    {
+      "model": "Naive Bayes",
+      "accuracy": 92.9
+    },
+    {
+      "model": "SVM",
+      "accuracy": 92.9
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 92.5
+    }
+  ],
+  "train_size": 960,
+  "test_size": 240,
+  "num_categories": 10
+}

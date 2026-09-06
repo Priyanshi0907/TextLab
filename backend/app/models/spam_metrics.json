@@ -1,0 +1,39 @@
+{
+  "task": "spam",
+  "best_model": "Logistic Regression",
+  "accuracy": 100.0,
+  "precision": 100.0,
+  "recall": 100.0,
+  "f1_score": 100.0,
+  "labels": [
+    "Not Spam",
+    "Spam"
+  ],
+  "confusion_matrix": [
+    [
+      39,
+      0
+    ],
+    [
+      0,
+      38
+    ]
+  ],
+  "model_comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 100.0
+    },
+    {
+      "model": "SVM",
+      "accuracy": 100.0
+    },
+    {
+      "model": "Naive Bayes",
+      "accuracy": 100.0
+    }
+  ],
+  "train_size": 307,
+  "test_size": 77,
+  "num_categories": 2
+}

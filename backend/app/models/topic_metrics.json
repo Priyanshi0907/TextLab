@@ -1,0 +1,99 @@
+{
+  "task": "topic",
+  "best_model": "Logistic Regression",
+  "accuracy": 100.0,
+  "precision": 100.0,
+  "recall": 100.0,
+  "f1_score": 100.0,
+  "labels": [
+    "Education",
+    "Entertainment",
+    "Finance",
+    "Health",
+    "Politics",
+    "Sports",
+    "Technology"
+  ],
+  "confusion_matrix": [
+    [
+      34,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      56,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      56,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      56,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      56,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      73
+    ]
+  ],
+  "model_comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 100.0
+    },
+    {
+      "model": "SVM",
+      "accuracy": 100.0
+    },
+    {
+      "model": "Naive Bayes",
+      "accuracy": 100.0
+    }
+  ],
+  "train_size": 1500,
+  "test_size": 376,
+  "num_categories": 7
+}

@@ -1,0 +1,385 @@
+{
+  "topic": {
+    "task": "topic",
+    "best_model": "Logistic Regression",
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1_score": 100.0,
+    "labels": [
+      "Education",
+      "Entertainment",
+      "Finance",
+      "Health",
+      "Politics",
+      "Sports",
+      "Technology"
+    ],
+    "confusion_matrix": [
+      [
+        34,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        45,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        56,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        56,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        56,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        56,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        73
+      ]
+    ],
+    "model_comparison": [
+      {
+        "model": "Logistic Regression",
+        "accuracy": 100.0
+      },
+      {
+        "model": "SVM",
+        "accuracy": 100.0
+      },
+      {
+        "model": "Naive Bayes",
+        "accuracy": 100.0
+      }
+    ],
+    "train_size": 1500,
+    "test_size": 376,
+    "num_categories": 7
+  },
+  "sentiment": {
+    "task": "sentiment",
+    "best_model": "Logistic Regression",
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1_score": 100.0,
+    "labels": [
+      "Negative",
+      "Neutral",
+      "Positive"
+    ],
+    "confusion_matrix": [
+      [
+        45,
+        0,
+        0
+      ],
+      [
+        0,
+        39,
+        0
+      ],
+      [
+        0,
+        0,
+        51
+      ]
+    ],
+    "model_comparison": [
+      {
+        "model": "Logistic Regression",
+        "accuracy": 100.0
+      },
+      {
+        "model": "SVM",
+        "accuracy": 100.0
+      },
+      {
+        "model": "Naive Bayes",
+        "accuracy": 100.0
+      }
+    ],
+    "train_size": 537,
+    "test_size": 135,
+    "num_categories": 3
+  },
+  "spam": {
+    "task": "spam",
+    "best_model": "Logistic Regression",
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1_score": 100.0,
+    "labels": [
+      "Not Spam",
+      "Spam"
+    ],
+    "confusion_matrix": [
+      [
+        39,
+        0
+      ],
+      [
+        0,
+        38
+      ]
+    ],
+    "model_comparison": [
+      {
+        "model": "Logistic Regression",
+        "accuracy": 100.0
+      },
+      {
+        "model": "SVM",
+        "accuracy": 100.0
+      },
+      {
+        "model": "Naive Bayes",
+        "accuracy": 100.0
+      }
+    ],
+    "train_size": 307,
+    "test_size": 77,
+    "num_categories": 2
+  },
+  "intent": {
+    "task": "intent",
+    "best_model": "Logistic Regression",
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1_score": 100.0,
+    "labels": [
+      "Cancellation",
+      "Complaint",
+      "Feedback",
+      "Inquiry",
+      "Order Tracking",
+      "Refund",
+      "Technical Support"
+    ],
+    "confusion_matrix": [
+      [
+        26,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        28,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        45,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        28,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        25,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        28
+      ]
+    ],
+    "model_comparison": [
+      {
+        "model": "Logistic Regression",
+        "accuracy": 100.0
+      },
+      {
+        "model": "SVM",
+        "accuracy": 100.0
+      },
+      {
+        "model": "Naive Bayes",
+        "accuracy": 100.0
+      }
+    ],
+    "train_size": 817,
+    "test_size": 205,
+    "num_categories": 7
+  },
+  "emotion": {
+    "task": "emotion",
+    "best_model": "Logistic Regression",
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1_score": 100.0,
+    "labels": [
+      "Anger",
+      "Fear",
+      "Joy",
+      "Love",
+      "Neutral",
+      "Sadness",
+      "Surprise"
+    ],
+    "confusion_matrix": [
+      [
+        34,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        33,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        39,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        28,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        34,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        31
+      ]
+    ],
+    "model_comparison": [
+      {
+        "model": "Logistic Regression",
+        "accuracy": 100.0
+      },
+      {
+        "model": "SVM",
+        "accuracy": 100.0
+      },
+      {
+        "model": "Naive Bayes",
+        "accuracy": 100.0
+      }
+    ],
+    "train_size": 907,
+    "test_size": 227,
+    "num_categories": 7
+  }
+}

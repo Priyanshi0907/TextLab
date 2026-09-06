@@ -1,0 +1,99 @@
+{
+  "task": "emotion",
+  "best_model": "Logistic Regression",
+  "accuracy": 100.0,
+  "precision": 100.0,
+  "recall": 100.0,
+  "f1_score": 100.0,
+  "labels": [
+    "Anger",
+    "Fear",
+    "Joy",
+    "Love",
+    "Neutral",
+    "Sadness",
+    "Surprise"
+  ],
+  "confusion_matrix": [
+    [
+      34,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      39,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      34,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      31
+    ]
+  ],
+  "model_comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 100.0
+    },
+    {
+      "model": "SVM",
+      "accuracy": 100.0
+    },
+    {
+      "model": "Naive Bayes",
+      "accuracy": 100.0
+    }
+  ],
+  "train_size": 907,
+  "test_size": 227,
+  "num_categories": 7
+}

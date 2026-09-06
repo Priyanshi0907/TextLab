@@ -1,0 +1,47 @@
+{
+  "task": "sentiment",
+  "best_model": "Logistic Regression",
+  "accuracy": 100.0,
+  "precision": 100.0,
+  "recall": 100.0,
+  "f1_score": 100.0,
+  "labels": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "confusion_matrix": [
+    [
+      45,
+      0,
+      0
+    ],
+    [
+      0,
+      39,
+      0
+    ],
+    [
+      0,
+      0,
+      51
+    ]
+  ],
+  "model_comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 100.0
+    },
+    {
+      "model": "SVM",
+      "accuracy": 100.0
+    },
+    {
+      "model": "Naive Bayes",
+      "accuracy": 100.0
+    }
+  ],
+  "train_size": 537,
+  "test_size": 135,
+  "num_categories": 3
+}

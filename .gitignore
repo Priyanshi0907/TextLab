@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+backend/app/textlab.db
+
+# Frontend / Node
+node_modules/
+dist/
+.vite/
+
+# Environment & IDE
+.env.local
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+

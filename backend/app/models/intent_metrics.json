@@ -1,0 +1,99 @@
+{
+  "task": "intent",
+  "best_model": "Logistic Regression",
+  "accuracy": 100.0,
+  "precision": 100.0,
+  "recall": 100.0,
+  "f1_score": 100.0,
+  "labels": [
+    "Cancellation",
+    "Complaint",
+    "Feedback",
+    "Inquiry",
+    "Order Tracking",
+    "Refund",
+    "Technical Support"
+  ],
+  "confusion_matrix": [
+    [
+      26,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      25,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      25,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      28
+    ]
+  ],
+  "model_comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 100.0
+    },
+    {
+      "model": "SVM",
+      "accuracy": 100.0
+    },
+    {
+      "model": "Naive Bayes",
+      "accuracy": 100.0
+    }
+  ],
+  "train_size": 817,
+  "test_size": 205,
+  "num_categories": 7
+}
